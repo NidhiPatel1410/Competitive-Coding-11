@@ -1,5 +1,10 @@
 // In this problem, using a stack to store the integers, and as soon as we encounter any operand, we pop the top two from stack, perform
 // the operation and push the evaluated result into the stack, and move forward.
+
+// Time Complexity : O(n)
+// Space Complexity : O(n)
+// Did this code successfully run on Leetcode : yes
+// Any problem you faced while coding this : No
 class Solution {
     public int evalRPN(String[] tokens) {
         // Base case
